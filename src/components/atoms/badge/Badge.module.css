@@ -1,0 +1,32 @@
+.badge {
+    @apply font-bold border-0 rounded-full cursor-pointer leading-4 flex items-center justify-center p-2;
+  }
+.badge--primary {
+    @apply bg-button-primary text-white;
+}
+.badge-outline--primary {
+    @apply outline outline-button-primary text-button-primary;
+}
+
+.badge--secondary {
+    @apply bg-button-secondary text-white;
+}
+.badge-outline--secondary {
+    @apply outline outline-button-secondary text-button-secondary;
+}
+.badge--xsmall {
+    @apply text-xs;
+}
+
+.badge--small {
+    @apply text-sm;
+}
+.badge--medium {
+    @apply text-base;
+}
+.badge--large {
+    @apply text-lg;
+}
+.badge--xlarge {
+    @apply text-xl;
+}

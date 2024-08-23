@@ -1,0 +1,30 @@
+.button-icon {
+    @apply font-bold border-0 rounded-xl cursor-pointer leading-4 flex items-center justify-center;
+  }
+.button-icon--primary {
+    @apply bg-button-primary text-white outline outline-button-primary;
+}
+.button-icon-outline--primary {
+    @apply outline outline-button-primary text-button-primary;
+}
+.button-icon--secondary {
+    @apply bg-button-secondary text-white;
+}
+.button-icon-outline--secondary {
+    @apply outline outline-button-secondary text-button-secondary;
+}
+.button-icon--xsmall {
+    @apply w-7 h-7 p-2;
+}
+.button-icon--small {
+    @apply w-8 h-8 p-2;
+}
+.button-icon--medium {
+    @apply w-10 h-10 p-2;
+}
+.button-icon--large {
+    @apply w-12 h-10 p-2;
+}
+.button-icon--xlarge {
+    @apply w-14 h-12 p-3;
+}

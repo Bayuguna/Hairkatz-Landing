@@ -1,0 +1,4 @@
+
+.card {
+  @apply  outline  rounded-lg flex w-full;
+}
