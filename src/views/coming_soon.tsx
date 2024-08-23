@@ -10,6 +10,8 @@ import { useState } from "react";
 
 import logo from "@public/logo.png";
 import bg_dashboard from "@public/bg_dashboard.png";
+import AButton from "@/components/atoms/button/button";
+import { Link } from "react-router-dom";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC9TS2--2D3Ry8oTTDVXrN8OgVOmPikvqk",
@@ -46,7 +48,7 @@ const ComingSoonPage = () => {
       <img
         src={bg_barber}
         className="w-full h-screen object-cover"
-        style={{ opacity: 0.05 }}
+        style={{ opacity: 0.06 }}
       />
       <div className="w-full h-[134px] left-1/2 -translate-x-1/2 top-[157px] absolute flex justify-center">
         <img src={logo} />
@@ -82,6 +84,16 @@ const ComingSoonPage = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-8">
+        <Link to={"https://forms.gle/n7snLptLqXQJCaT27"} target="_blank">
+          <AButton
+            label="Subscribe Now"
+            onClick={() => {}}
+            suffixIcon={BiBell}
+            size="large"
+          />
+        </Link>
       </div>
     </div>
   );
