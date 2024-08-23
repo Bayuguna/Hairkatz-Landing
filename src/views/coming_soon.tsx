@@ -50,10 +50,16 @@ const ComingSoonPage = () => {
         className="w-full h-screen object-cover"
         style={{ opacity: 0.06 }}
       />
+
       <div className="w-full h-[134px] left-1/2 -translate-x-1/2 top-[157px] absolute flex justify-center">
-        <img src={logo} />
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="2500">
+          <img src={logo} className="w-[110px] md:w-[120px] xl:w-[130px]" />
+        </div>
       </div>
-      <div className="w-full h-[134px] left-1/2 -translate-x-1/2 top-[260px] xl:top-[240px] absolute flex justify-center items-center z-50">
+      <div className="w-full h-[134px] left-1/2 -translate-x-1/2 top-[260px] xl:top-[220px] absolute flex justify-center items-center z-50">
         <div
           data-aos="zoom-in-up"
           data-aos-duration="2000"
@@ -68,7 +74,9 @@ const ComingSoonPage = () => {
             <div className="left-1/2 -translate-x-1/2 top-1/2 translate-y-2/3 absolute text-center text-white text-[20px] md:text-[30px] xl:text-[40px] font-light font-['Plus Jakarta Sans'] tracking-[9px]">
               something
               <br />
-              is coming
+              <span className="text-transparent bg-gradient-to-b from-white to-[#FF0000] bg-clip-text">
+                is coming
+              </span>
             </div>
           </div>
         </div>
