@@ -35,10 +35,10 @@ const HeadlineSection = () => {
       <div className="h-[1461px] pt-28 pb-16 flex-col justify-center items-center gap-24 inline-flex">
         <div className="flex-col justify-center items-center gap-8 flex">
           <div className="flex-col justify-center items-center gap-6 flex">
-            <div className="h-[38px] px-4 py-2 bg-white/5 rounded-full shadow border border-[#ffa900] backdrop-blur-[41px] justify-center items-center gap-2 inline-flex">
-              <div className="text-[#ffa900] text-base font-semibold font-['Plus Jakarta Sans'] leading-snug">
+            <div className="h-[38px] px-4 py-2 bg-white/5 rounded-full shadow border border-[#ffa900] backdrop-blur-[41px] justify-center items-center gap-2 inline-flex relative">
+              <span className="text-transparent bg-gradient-to-l from-[#FFA900] to-[#CD113B] bg-clip-text">
                 Optimasi Barbershop Anda Bersama Kami
-              </div>
+              </span>
             </div>
             <div className="w-[846px] text-center text-[#8c8c8c] text-[64px] font-semibold font-['Plus Jakarta Sans'] leading-[76.80px]">
               Maksimalkan Setiap Menit Barbershop Anda
