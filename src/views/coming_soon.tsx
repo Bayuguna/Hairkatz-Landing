@@ -4,9 +4,6 @@ import bg_barber from "@public/bg_barber.jpg";
 import logo from "@public/logo.png";
 import bg_dashboard from "@public/bg_dashboard.png";
 import AButton from "@/components/atoms/button/button";
-import { Link } from "react-router-dom";
-import { BorderBeam } from "@/components/magicui/border-beam";
-import Ripple from "@/components/magicui/ripple";
 import confetti from "canvas-confetti";
 
 // const firebaseConfig = {
