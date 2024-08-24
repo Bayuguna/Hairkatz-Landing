@@ -23,14 +23,14 @@ import { Link } from "react-router-dom";
 
 const ComingSoonPage = () => {
   return (
-    <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center ">
-      {/* <img
+    <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex justify-center">
+      <img
         src={bg_barber}
         className="w-full h-screen object-cover"
         style={{ opacity: 0.06 }}
-      /> */}
+      />
 
-      <div className="w-full flex justify-center pt-32">
+      <div className="w-full h-[134px] flex justify-center">
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
@@ -38,19 +38,19 @@ const ComingSoonPage = () => {
           <img src={logo} className="w-[110px] md:w-[120px] xl:w-[130px]" />
         </div>
       </div>
-      <div className=" z-50 relative">
+      <div className="w-full h-[134px] flex justify-center items-center z-50 relative">
         <div
           data-aos="zoom-in-up"
           data-aos-duration="2000"
           data-aos-delay="500">
-          <div className="opacity-25 text-center text-[140px] md:text-[150px] xl:text-[200px] font-extrabold font-plusjakartasans tracking-widest font-outline-2 text-transparent">
+          <div className="left-1/2 -translate-x-1/2 top-1/3 absolute opacity-25 text-center text-[140px] md:text-[150px] xl:text-[200px] font-extrabold font-['Plus Jakarta Sans'] tracking-widest font-outline-2 text-transparent">
             BIG
           </div>
-          <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center text-white text-[24px] md:text-[30px] xl:text-[40px] font-light font-plusjakartasans tracking-[9px]">
-            <div
-              data-aos="zoom-in-up"
-              data-aos-duration="1500"
-              data-aos-delay="1500">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+            data-aos-delay="1500">
+            <div className="left-1/2 -translate-x-1/2 top-4 translate-y-3/4 xl:top-1/2 xl:translate-y-2/3 absolute text-center text-white text-[24px] md:text-[30px] xl:text-[40px] font-light font-['Plus Jakarta Sans'] tracking-[9px]">
               something
               <br />
               <span className="text-transparent bg-gradient-to-b from-white to-[#FF0000] bg-clip-text">
@@ -61,7 +61,7 @@ const ComingSoonPage = () => {
         </div>
       </div>
 
-      <div className="w-full h-[100px] xl:h-[1228.32px] absolute top-[60%]">
+      <div className="w-full h-[100px] xl:h-[1228.32px]">
         <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
           <div className="w-[340px] md:w-[380px] xl:w-[440px] h-[469.73px] left-1/2 -translate-x-1/2 top-[-0px] absolute bg-[#ff1818] rounded-full blur-[276.57px]" />
           <div className="w-[380px] md:w-[800px] xl:w-[1006.67px] xl:h-[1228.32px] left-1/2 -translate-x-1/2 top-[-0px] absolute  rounded-[17.84px] ">
