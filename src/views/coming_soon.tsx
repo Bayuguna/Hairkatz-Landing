@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 
 const ComingSoonPage = () => {
   return (
-    <div className="w-full h-screen overflow-auto relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center ">
+    <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center ">
       {/* <img
         src={bg_barber}
         className="w-full h-screen object-cover"
@@ -72,7 +72,7 @@ const ComingSoonPage = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-10 xl:bottom-8">
+      <div className="fixed bottom-10 xl:bottom-8 z-50">
         <Link to={"https://forms.gle/n7snLptLqXQJCaT27"} target="_blank">
           <AButton
             label="Subscribe Now"
