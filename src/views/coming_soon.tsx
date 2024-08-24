@@ -50,7 +50,7 @@ const ComingSoonPage = () => {
             data-aos="zoom-in-up"
             data-aos-duration="1500"
             data-aos-delay="1500">
-            <div className="left-1/2 -translate-x-1/2 top-1/2 translate-y-2/3 absolute text-center text-white text-[20px] md:text-[30px] xl:text-[40px] font-light font-['Plus Jakarta Sans'] tracking-[9px]">
+            <div className="left-1/2 -translate-x-1/2 top-4 translate-y-3/4 xl:top-1/2 xl:translate-y-2/3 absolute text-center text-white text-[20px] md:text-[30px] xl:text-[40px] font-light font-['Plus Jakarta Sans'] tracking-[9px]">
               something
               <br />
               <span className="text-transparent bg-gradient-to-b from-white to-[#FF0000] bg-clip-text">
