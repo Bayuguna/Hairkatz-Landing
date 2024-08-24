@@ -5,6 +5,9 @@ import logo from "@public/logo.png";
 import bg_dashboard from "@public/bg_dashboard.png";
 import AButton from "@/components/atoms/button/button";
 import { Link } from "react-router-dom";
+import { BorderBeam } from "@/components/magicui/border-beam";
+import Ripple from "@/components/magicui/ripple";
+import confetti from "canvas-confetti";
 
 // const firebaseConfig = {
 //   apiKey: "AIzaSyC9TS2--2D3Ry8oTTDVXrN8OgVOmPikvqk",
@@ -22,6 +25,38 @@ import { Link } from "react-router-dom";
 // export const db = getDatabase(app);
 
 const ComingSoonPage = () => {
+  const handleClick = () => {
+    const duration = 5 * 1000;
+    const animationEnd = Date.now() + duration;
+    const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+    const randomInRange = (min: number, max: number) =>
+      Math.random() * (max - min) + min;
+
+    const interval = window.setInterval(() => {
+      const timeLeft = animationEnd - Date.now();
+
+      if (timeLeft <= 0) {
+        return clearInterval(interval);
+      }
+
+      const particleCount = 50 * (timeLeft / duration);
+      confetti({
+        ...defaults,
+        particleCount,
+        origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
+      });
+      confetti({
+        ...defaults,
+        particleCount,
+        origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
+      });
+    }, 250);
+
+    setTimeout(() => {
+      window.open("https://forms.gle/n7snLptLqXQJCaT27", "_blank");
+    }, 5000);
+  };
   return (
     <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center">
       <img
@@ -73,14 +108,16 @@ const ComingSoonPage = () => {
         </div>
       </div>
       <div className="fixed bottom-10 xl:bottom-8 z-50">
-        <Link to={"https://forms.gle/n7snLptLqXQJCaT27"} target="_blank">
-          <AButton
-            label="Subscribe Now"
-            onClick={() => {}}
-            suffixIcon={BiBell}
-            size="large"
-          />
-        </Link>
+        {/* <Link to={"https://forms.gle/n7snLptLqXQJCaT27"} target="_blank"> */}
+        <AButton
+          label="Register Now"
+          onClick={() => {
+            handleClick();
+          }}
+          suffixIcon={BiBell}
+          size="large"
+        />
+        {/* </Link> */}
       </div>
     </div>
   );

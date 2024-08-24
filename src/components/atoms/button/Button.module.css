@@ -24,7 +24,7 @@
   @apply text-xs p-3;
 }
 .button--large {
-  @apply text-base  p-2.5;
+  @apply text-base px-4 py-2.5;
 }
 .button--fullarge {
   @apply text-lg  p-2.5;
