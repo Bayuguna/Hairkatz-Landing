@@ -1,5 +1,5 @@
 import { BiBell } from "react-icons/bi";
-import bg_barber from "@public/bg_barber.jpg";
+// import bg_barber from "@public/bg_barber.jpg";
 
 import logo from "@public/logo.png";
 import bg_dashboard from "@public/bg_dashboard.png";
