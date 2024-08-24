@@ -43,17 +43,17 @@ const ComingSoonPage = () => {
           data-aos="zoom-in-up"
           data-aos-duration="2000"
           data-aos-delay="500">
-          <div className="opacity-25 text-center text-[140px] md:text-[150px] xl:text-[200px] font-extrabold font-plusjakartasans tracking-widest font-outline-2 text-transparent">
+          <div className="opacity-25 text-center text-[150px] xl:text-[200px] font-extrabold font-plusjakartasans tracking-widest font-outline-2 text-transparent">
             BIG
           </div>
-          <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center text-white text-[24px] md:text-[30px] xl:text-[40px] font-light font-plusjakartasans tracking-[9px]">
+          <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center text-white text-[30px] md:text-[38px] xl:text-[40px] font-light font-plusjakartasans tracking-[9px]">
             <div
               data-aos="zoom-in-up"
               data-aos-duration="1500"
               data-aos-delay="1500">
               something
               <br />
-              <span className="text-transparent bg-gradient-to-b from-white to-[#FF0000] bg-clip-text">
+              <span className="text-transparent bg-gradient-to-b from-white from-[35%] to-[#FF0000] bg-clip-text">
                 is coming
               </span>
             </div>
