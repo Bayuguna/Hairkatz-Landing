@@ -1,10 +1,8 @@
 import AButton from "@/components/atoms/button/button";
-import { BiChevronRight } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import logo from "@public/logo.png";
 import app from "@/utils/constant/app";
-import { useEffect, useRef } from "react";
 
 interface NavbarProps {
   menuItems: {

@@ -1,48 +1,27 @@
 import { BiBell } from "react-icons/bi";
 import bg_barber from "@public/bg_barber.jpg";
-import ATextfield from "@/components/atoms/textfield/textfield";
-import { MdEmail } from "react-icons/md";
-import AButtonIcon from "@/components/atoms/button_icon/button_icon";
-
-import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set } from "firebase/database";
-import { useState } from "react";
 
 import logo from "@public/logo.png";
 import bg_dashboard from "@public/bg_dashboard.png";
 import AButton from "@/components/atoms/button/button";
 import { Link } from "react-router-dom";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyC9TS2--2D3Ry8oTTDVXrN8OgVOmPikvqk",
-  authDomain: "hairkatz.firebaseapp.com",
-  databaseURL:
-    "https://hairkatz-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "hairkatz",
-  storageBucket: "hairkatz.appspot.com",
-  messagingSenderId: "993858939850",
-  appId: "1:993858939850:web:b6780f11d43298f1fdfd33",
-  measurementId: "G-C1NBZN2VMZ",
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyC9TS2--2D3Ry8oTTDVXrN8OgVOmPikvqk",
+//   authDomain: "hairkatz.firebaseapp.com",
+//   databaseURL:
+//     "https://hairkatz-default-rtdb.asia-southeast1.firebasedatabase.app",
+//   projectId: "hairkatz",
+//   storageBucket: "hairkatz.appspot.com",
+//   messagingSenderId: "993858939850",
+//   appId: "1:993858939850:web:b6780f11d43298f1fdfd33",
+//   measurementId: "G-C1NBZN2VMZ",
+// };
 
-const app = initializeApp(firebaseConfig);
-export const db = getDatabase(app);
+// const app = initializeApp(firebaseConfig);
+// export const db = getDatabase(app);
 
 const ComingSoonPage = () => {
-  const database = getDatabase();
-  const [email, setEmail] = useState("");
-  const handleNotify = () => {
-    set(ref(database, "user_register"), {
-      email: email,
-    })
-      .then(() => {
-        // Success.
-        console.log("success");
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
   return (
     <div className="w-full h-full relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex justify-center">
       <img

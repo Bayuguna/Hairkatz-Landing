@@ -1,34 +1,31 @@
 import AButton from "@/components/atoms/button/button";
-import bg_barber from "@public/bg_barber.jpg";
-import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
-import clsx from "clsx";
 import bg_dashboard from "@public/bg_dashboard.png";
 
-const sections = [
-  { id: "section1", content: "Section 1" },
-  { id: "section2", content: "Section 2" },
-  { id: "section3", content: "Section 3" },
-  { id: "section4", content: "Section 4" },
-];
+// const sections = [
+//   { id: "section1", content: "Section 1" },
+//   { id: "section2", content: "Section 2" },
+//   { id: "section3", content: "Section 3" },
+//   { id: "section4", content: "Section 4" },
+// ];
 
 const HeadlineSection = () => {
-  const [currentSection, setCurrentSection] = useState(0);
+  // const [currentSection, setCurrentSection] = useState(0);
 
-  const handleScroll = (event: any) => {
-    if (event.deltaY > 0) {
-      console.log("wheel event added plus" + event.deltaY);
-      setCurrentSection((prev) => Math.min(prev + 1, sections.length - 1));
-    } else {
-      console.log("wheel event added minus" + event.deltaY);
-      setCurrentSection((prev) => Math.max(prev - 1, 0));
-    }
-  };
+  // const handleScroll = (event: any) => {
+  //   if (event.deltaY > 0) {
+  //     console.log("wheel event added plus" + event.deltaY);
+  //     setCurrentSection((prev) => Math.min(prev + 1, sections.length - 1));
+  //   } else {
+  //     console.log("wheel event added minus" + event.deltaY);
+  //     setCurrentSection((prev) => Math.max(prev - 1, 0));
+  //   }
+  // };
 
-  React.useEffect(() => {
-    window.addEventListener("wheel", handleScroll);
-    return () => window.removeEventListener("wheel", handleScroll);
-  }, []);
+  // React.useEffect(() => {
+  //   window.addEventListener("wheel", handleScroll);
+  //   return () => window.removeEventListener("wheel", handleScroll);
+  // }, []);
 
   return (
     <>
