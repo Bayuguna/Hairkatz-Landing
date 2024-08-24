@@ -30,7 +30,7 @@ const ComingSoonPage = () => {
         style={{ opacity: 0.06 }}
       />
 
-      <div className="w-full h-[134px] flex justify-center">
+      <div className="w-full h-[134px] left-1/2 -translate-x-1/2 top-[120px] xl:top-[157px] absolute flex justify-center">
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
@@ -38,7 +38,7 @@ const ComingSoonPage = () => {
           <img src={logo} className="w-[110px] md:w-[120px] xl:w-[130px]" />
         </div>
       </div>
-      <div className="w-full h-[134px] flex justify-center items-center z-50 relative">
+      <div className="w-full h-[134px] left-1/2 -translate-x-1/2 top-[210px] xl:top-[220px] absolute flex justify-center items-center z-50">
         <div
           data-aos="zoom-in-up"
           data-aos-duration="2000"
@@ -61,7 +61,7 @@ const ComingSoonPage = () => {
         </div>
       </div>
 
-      <div className="w-full h-[100px] xl:h-[1228.32px]">
+      <div className="w-full h-[100px] xl:h-[1228.32px] left-1/2 -translate-x-1/2 top-[500px] xl:top-[582.91px] absolute">
         <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000">
           <div className="w-[340px] md:w-[380px] xl:w-[440px] h-[469.73px] left-1/2 -translate-x-1/2 top-[-0px] absolute bg-[#ff1818] rounded-full blur-[276.57px]" />
           <div className="w-[380px] md:w-[800px] xl:w-[1006.67px] xl:h-[1228.32px] left-1/2 -translate-x-1/2 top-[-0px] absolute  rounded-[17.84px] ">
