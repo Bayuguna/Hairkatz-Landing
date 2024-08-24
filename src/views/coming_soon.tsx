@@ -23,7 +23,7 @@ import confetti from "canvas-confetti";
 
 const ComingSoonPage = () => {
   const handleClick = () => {
-    const duration = 5 * 1000;
+    const duration = 4 * 1000;
     const animationEnd = Date.now() + duration;
     const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
@@ -52,7 +52,7 @@ const ComingSoonPage = () => {
 
     setTimeout(() => {
       window.open("https://forms.gle/n7snLptLqXQJCaT27", "_blank");
-    }, 5000);
+    }, duration);
   };
   return (
     <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center">
