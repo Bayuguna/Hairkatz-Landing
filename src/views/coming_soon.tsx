@@ -1,5 +1,5 @@
 import { BiBell } from "react-icons/bi";
-// import bg_barber from "@public/bg_barber.jpg";
+import bg_barber from "@public/bg_barber.jpg";
 
 import logo from "@public/logo.png";
 import bg_dashboard from "@public/bg_dashboard.png";
@@ -23,12 +23,12 @@ import { Link } from "react-router-dom";
 
 const ComingSoonPage = () => {
   return (
-    <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center ">
-      {/* <img
+    <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex flex-col items-center">
+      <img
         src={bg_barber}
-        className="w-full h-screen object-cover"
+        className="w-full h-screen object-cover fixed"
         style={{ opacity: 0.06 }}
-      /> */}
+      />
 
       <div className="w-full flex justify-center pt-32">
         <div
