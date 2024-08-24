@@ -60,7 +60,7 @@ const ComingSoonPage = () => {
           data-aos="zoom-in-up"
           data-aos-duration="2000"
           data-aos-delay="1500">
-          <div className="opacity-15 text-center text-[150px] xl:text-[200px] font-extrabold font-plusjakartasans tracking-widest font-outline-2 text-transparent">
+          <div className="opacity-15 text-center text-[150px] md:text-[200px] xl:text-[230px] font-extrabold font-plusjakartasans tracking-widest font-outline-2 text-transparent">
             BIG
           </div>
         </div>
