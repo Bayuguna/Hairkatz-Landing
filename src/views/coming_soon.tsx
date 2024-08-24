@@ -85,7 +85,7 @@ const ComingSoonPage = () => {
 
       <div className="w-full h-[100px] xl:h-[1228.32px] absolute top-[60%]">
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2500">
-          <div className="w-[340px] md:w-[380px] xl:w-[440px] h-[469.73px] left-1/2 -translate-x-1/2 top-[-0px] absolute bg-[#ff1818] rounded-full blur-[276.57px]" />
+          <div className="w-[360px] md:w-[400px] xl:w-[440px] h-[469.73px] left-1/2 -translate-x-1/2 top-[-0px] absolute bg-[#ff1818] rounded-full blur-[276.57px]" />
           <div className="w-[380px] md:w-[800px] xl:w-[1006.67px] xl:h-[1228.32px] left-1/2 -translate-x-1/2 top-[-0px] absolute  rounded-[17.84px] ">
             <img
               className="left-2 xl:left-10 top-0 absolute "
