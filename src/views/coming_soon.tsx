@@ -23,10 +23,10 @@ import { Link } from "react-router-dom";
 
 const ComingSoonPage = () => {
   return (
-    <div className="w-full h-sceen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex justify-center">
+    <div className="w-full h-screen overflow-hidden relative bg-gradient-to-b from-[#292a30] via-[#1c1d21] to-[#1c1d21] flex justify-center">
       <img
         src={bg_barber}
-        className="w-full h-full object-cover"
+        className="w-full h-screen object-cover"
         style={{ opacity: 0.06 }}
       />
 
