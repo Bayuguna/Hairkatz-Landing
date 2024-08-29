@@ -2,7 +2,6 @@ import AButton from "@/components/atoms/button/button";
 import { BsArrowRight } from "react-icons/bs";
 import bg_dashboard from "@public/bg_dashboard.png";
 import ShinyButton from "@/components/magicui/shiny-button";
-import ShimmerButton from "@/components/magicui/shimmer-button";
 import { BorderBeam } from "@/components/magicui/border-beam";
 
 // const sections = [
