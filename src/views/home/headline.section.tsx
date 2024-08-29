@@ -1,6 +1,9 @@
 import AButton from "@/components/atoms/button/button";
 import { BsArrowRight } from "react-icons/bs";
 import bg_dashboard from "@public/bg_dashboard.png";
+import ShinyButton from "@/components/magicui/shiny-button";
+import ShimmerButton from "@/components/magicui/shimmer-button";
+import { BorderBeam } from "@/components/magicui/border-beam";
 
 // const sections = [
 //   { id: "section1", content: "Section 1" },
@@ -32,6 +35,10 @@ const HeadlineSection = () => {
       <div className="h-[1461px] pt-28 pb-16 flex-col justify-center items-center gap-24 inline-flex">
         <div className="flex-col justify-center items-center gap-8 flex">
           <div className="flex-col justify-center items-center gap-6 flex">
+            <ShinyButton
+              text="Shiny Button"
+              className="border border-slate-100"
+            />
             <div className="h-[38px] px-4 py-2 bg-white/5 rounded-full shadow border border-[#ffa900] backdrop-blur-[41px] justify-center items-center gap-2 inline-flex relative">
               <span className="text-transparent bg-gradient-to-l from-[#FFA900] to-[#CD113B] bg-clip-text">
                 Optimasi Barbershop Anda Bersama Kami
@@ -61,6 +68,7 @@ const HeadlineSection = () => {
               className="left-2 md:left-10 top-0 absolute "
               src={bg_dashboard}
             />
+            <BorderBeam size={250} duration={12} delay={9} />
           </div>
         </div>
       </div>
