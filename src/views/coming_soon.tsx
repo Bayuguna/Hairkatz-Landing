@@ -47,7 +47,7 @@ const ComingSoonPage = () => {
         style={{ opacity: 0.02 }}
       />
 
-      <div className="w-full flex justify-center pt-32">
+      <div className="w-full flex justify-center pt-16 xl:pt-32">
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
