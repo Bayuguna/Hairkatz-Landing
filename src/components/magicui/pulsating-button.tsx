@@ -19,6 +19,7 @@ export default function PulsatingButton({
 }: PulsatingButtonProps) {
   return (
     <AButton
+      className="relative"
       style={
         {
           "--pulse-color": pulseColor,

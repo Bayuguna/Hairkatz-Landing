@@ -2,8 +2,8 @@ const ALogo = () => {
   return (
     <div className="opacity-60">
       <svg
-        width="171"
-        height="169"
+        width="141"
+        height="139"
         viewBox="0 0 271 269"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
