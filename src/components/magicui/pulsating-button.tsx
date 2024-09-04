@@ -2,7 +2,6 @@
 
 import React from "react";
 
-import { cn } from "@/lib/utils";
 import ButtonProps from "../atoms/button/button.interface";
 import AButton from "../atoms/button/button";
 
