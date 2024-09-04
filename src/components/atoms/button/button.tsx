@@ -15,6 +15,7 @@ const AButton = ({
 }: ButtonProps) => {
   return (
     <button
+      style={props.style}
       type="button"
       className={[
         className,
@@ -45,6 +46,7 @@ const AButton = ({
             styles["button-icon--" + size]
           )}></props.suffixIcon>
       )}
+      {props.children}
     </button>
   );
 };

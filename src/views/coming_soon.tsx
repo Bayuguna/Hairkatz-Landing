@@ -1,10 +1,12 @@
 import { BiBell } from "react-icons/bi";
 import bg_barber from "@public/bg_barber.jpg";
 
-import logo from "@public/logo.png";
+import logo from "@public/logo_v1.svg";
 import bg_dashboard from "@public/bg_dashboard.png";
 import AButton from "@/components/atoms/button/button";
 import confetti from "canvas-confetti";
+import PulsatingButton from "@/components/magicui/pulsating-button";
+import ALogo from "@/components/atoms/logo/logo";
 
 const ComingSoonPage = () => {
   const handleClick = () => {
@@ -52,7 +54,10 @@ const ComingSoonPage = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-duration="2500">
-          <img src={logo} className="w-[110px] md:w-[120px] xl:w-[130px]" />
+          <div>
+            <ALogo />
+          </div>
+          {/* <img src={logo} className="w-[110px] md:w-[120px] xl:w-[130px]" /> */}
         </div>
       </div>
       <div className=" z-50 relative">
@@ -83,6 +88,17 @@ const ComingSoonPage = () => {
         </div>
       </div>
 
+      {/* <div className="">
+        <AButton
+          label="Register Now"
+          onClick={() => {
+            handleClick();
+          }}
+          suffixIcon={BiBell}
+          size="large"
+        />
+      </div> */}
+
       <div className="w-full h-[100px] xl:h-[1228.32px] absolute top-[60%]">
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2500">
           <div className="w-[360px] md:w-[400px] xl:w-[440px] h-[469.73px] left-1/2 -translate-x-1/2 top-[-0px] absolute bg-[#ff1818] rounded-full blur-[276.57px]" />
@@ -95,8 +111,7 @@ const ComingSoonPage = () => {
         </div>
       </div>
       <div className="fixed bottom-10 xl:bottom-8 z-50">
-        {/* <Link to={"https://forms.gle/n7snLptLqXQJCaT27"} target="_blank"> */}
-        <AButton
+        <PulsatingButton
           label="Register Now"
           onClick={() => {
             handleClick();
@@ -104,7 +119,6 @@ const ComingSoonPage = () => {
           suffixIcon={BiBell}
           size="large"
         />
-        {/* </Link> */}
       </div>
     </div>
   );

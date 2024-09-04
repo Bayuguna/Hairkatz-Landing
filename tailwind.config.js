@@ -100,6 +100,10 @@ export default {
             transform: "translate(calc(100cqw - 100%), 0)",
           },
         },
+        pulse: {
+          "0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
+          "50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
+        },
       },
       animation: {
         'fade-in': 'fade-in 0.5s ease-out',
@@ -110,6 +114,7 @@ export default {
         ripple: "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        pulse: "pulse var(--duration) ease-out infinite",
       },
       width: {
         18: '4.5rem'

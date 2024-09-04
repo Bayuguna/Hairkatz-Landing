@@ -1,6 +1,7 @@
 import { Size } from "@/utils/constant/size";
 import { Color } from "@/utils/constant/color";
 import { VariantButton } from "@/utils/constant/variant";
+import { ReactNode } from "react";
 
 export default interface ButtonProps {
   color?: Color;
@@ -11,4 +12,6 @@ export default interface ButtonProps {
   prefixIcon?: any;
   suffixIcon?: any;
   className?: string;
+  style?: any;
+  children?: ReactNode;
 }
