@@ -1,9 +1,7 @@
 import { BiBell } from "react-icons/bi";
 import bg_barber from "@public/bg_barber.jpg";
 
-import logo from "@public/logo_v1.svg";
 import bg_dashboard from "@public/bg_dashboard.png";
-import AButton from "@/components/atoms/button/button";
 import confetti from "canvas-confetti";
 import PulsatingButton from "@/components/magicui/pulsating-button";
 import ALogo from "@/components/atoms/logo/logo";
